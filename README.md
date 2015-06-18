@@ -116,9 +116,14 @@ GRADLE_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=50
 ```
 
 2. asociar el depurador de nuestro entorno a la aplicación. Desde IntelliJ accedemos al menu Run -> Edit Configurations...
+
 3. Creamos una nueva configuración de tipo Remote.
+    
     3.1. Seleccionamos la opción 'Socket' para 'Transport'.
+
     3.2. Seleccionamos la opción 'Attach' para 'Debugger mode'.
+
     3.3. Host -> localhost
+
     3.4. Port -> 5005
 
