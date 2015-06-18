@@ -109,15 +109,15 @@ gradle tasks
 ```
 
 ## Opciones de depuración (IntelliJ)
-1. Para desplegar la aplicación en modo de depuración, debemos crear una variable de entorno.
+1.Para desplegar la aplicación en modo de depuración, debemos crear una variable de entorno.
 
 ```
 GRADLE_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
 ```
 
-2. asociar el depurador de nuestro entorno a la aplicación. Desde IntelliJ accedemos al menu Run -> Edit Configurations...
+2.Asociar el depurador de nuestro entorno a la aplicación. Desde IntelliJ accedemos al menu Run -> Edit Configurations...
 
-3. Creamos una nueva configuración de tipo Remote.
+3.Creamos una nueva configuración de tipo Remote.
     
     3.1. Seleccionamos la opción 'Socket' para 'Transport'.
 
